@@ -1,3 +1,28 @@
+# Summary
+# Problem (write down implicity and explicity)
+# Example / Test Data
+#   Focus on Input
+#   Emptiness
+#   Boundaries
+#   Repitition
+#   Upercase Lowercase
+#   Different Data Structures
+# Data Structure (String, Array, Hash, Integer, Compound)
+#   Input
+#   Rules
+#   Output
+# Algorithm
+#   In the language of the data Structure
+#   Assess against the examples
+# Abstration
+#   Break down problem
+#   Built in abstractions
+#   Solve in one or two sentences
+#   Methods
+# Code: Last Step
+
+##############################################
+
 PEDAC
 1) Understand the Problem
 2) Examples / Test Cases
