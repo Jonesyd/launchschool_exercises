@@ -1,25 +1,24 @@
 # Summary
-# Problem (write down implicity and explicity)
-# Example / Test Data
-#   Focus on Input
-#   Emptiness
-#   Boundaries
-#   Repitition
-#   Upercase Lowercase
-#   Different Data Structures
-# Data Structure (String, Array, Hash, Integer, Compound)
-#   Input
-#   Rules
-#   Output
-# Algorithm
-#   In the language of the data Structure
-#   Assess against the examples
-# Abstration
-#   Break down problem
-#   Built in abstractions
-#   Solve in one or two sentences
-#   Methods
-# Code: Last Step
+# Problem (implicit and explicit - write it out)
+# Examples / Test Cases
+#   Happy Path
+#   Edgecases
+#     Focus on Inputs
+#     Emptiness
+#     Boundaries
+#     Repitition
+#     Upcase Downcase
+#     Different Data Structures
+#   Inputs / Outputs / Returns
+#   Failures
+# Data Structures (input, output rules)
+# Alogorithms (in data structure language / test examples)
+# Abstraction
+#   Break down
+#   Simple sentences
+#   Built In Methods
+#   Write Methods
+# Code
 
 ##############################################
 
