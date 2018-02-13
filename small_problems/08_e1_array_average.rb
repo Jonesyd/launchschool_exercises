@@ -1,6 +1,7 @@
 def average(array)
-  total = array.inject(0) {|sum, int| sum + int.to_f }
-  average = total / array.count
+  #total = array.inject(0) {|sum, int| sum + int.to_f }
+  total = array.reduce(:+)
+  average = total.to_f / array.count
   average.round(1)
 end
 
