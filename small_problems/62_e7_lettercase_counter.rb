@@ -1,5 +1,5 @@
 def letter_case_count(str)
-  facts = {} 
+  facts = {}
   facts[:lowercase] = str.count("a-z")
   facts[:uppercase] = str.count("A-Z")
   facts[:neither] = str.count("^a-zA-Z")
