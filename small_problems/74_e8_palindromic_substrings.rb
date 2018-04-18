@@ -42,34 +42,3 @@ p palindromes('hello-madam-did-madam-goodbye') == [
 p palindromes('knitting cassettes') == [
   'nittin', 'itti', 'tt', 'ss', 'settes', 'ette', 'tt'
 ]
-
-=begin
-PEDAC
-problem
-  Write a method that returns a list of all substrings
-  of a string that are palindromic.
-  That is, each substring must consist of the same sequence
-  of characters forwards as it does backwards.
-  The return value should be arranged in the same sequence
-  as the substrings appear in the string.
-  Duplicate palindromes should be included multiple times.
-
-  you should consider all characters and
-  pay attention to case; that is, "AbcbA" is a palindrome,
-  but neither "Abcba" nor "Abc-bA" are.
-  In addition, assume that single characters are not palindromes.
-example (test case above)
-data structure
-  string input
-  array output
-Algorithm
-  def palindromes(string)
-    array = substrings(string)
-    array.map do |sub|
-      sub.size > 0 &&
-        sub == sub.reverse
-    end
-  end
-
-
-=end
