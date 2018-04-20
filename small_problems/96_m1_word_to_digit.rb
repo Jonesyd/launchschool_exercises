@@ -6,7 +6,6 @@ def word_to_digit(string)
     string.gsub!(/\b#{word}\b/, num)
   end
   string
-
 end
 
 p word_to_digit('Please call me at five five five one two three four. Thanks.')
