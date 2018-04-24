@@ -1,6 +1,6 @@
 def fibonacci(integer)
   array = []
-  array.fill(0, integer + 1) do |index|
+  array.fill(0..integer) do |index|
     case index
     when 0 then array[0] = 0
     when 1 then array[1] = 1
