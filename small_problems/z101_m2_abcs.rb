@@ -9,9 +9,10 @@ def block_word?(string)
   results = []
 
   chars.each do |char|
-    results << letters.flatten.include?(char) ? true : false
-    letters.delete_if { |sub_array| sub_array.include?(char) }
+    results << letters.flatten.include?(char)
+    letters.delete_if { |ary| ary.include?(char) }
   end
+
   results.all?
 end
 
