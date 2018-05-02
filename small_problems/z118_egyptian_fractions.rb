@@ -1,5 +1,7 @@
 def egyptian(rational)
-  array, counter, running_total = [], 1, 0
+  array         = []
+  counter       = 1
+  running_total = 0
 
   while running_total < rational
     if Rational(1, counter) <= rational - running_total
