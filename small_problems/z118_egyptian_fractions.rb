@@ -2,14 +2,13 @@ def egyptian(rational)
   array, counter, running_total = [], 1, 0
 
   while running_total < rational
-
-    if Rational(1, counter) <= (rational - running_total)
+    if Rational(1, counter) <= rational - running_total
       array << counter
       running_total += Rational(1, counter)
     end
-
     counter += 1
   end
+
   array
 end
 
