@@ -24,7 +24,12 @@ end
 def idf(term, documents)
   number_of_documents = documents.length
   number_of_documents_with_term = documents.count { |d| tf(term, d) > 0 }
-  number_of_documents_with_term == 0 ? 0 : Math.log(number_of_documents.to_f / number_of_documents_with_term.to_f)
+  if number_of_documents_with_term == 0
+    result = 0
+  else
+    result = Math.log(number_of_documents.to_f / number_of_documents_with_term.to_f)
+  end
+  result
 end
 
 # Very simple example
