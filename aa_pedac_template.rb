@@ -1,7 +1,7 @@
 # Problem (implicit, explicit):
-  # 
-# Examples (happy path, edgecases, failures):
   #
+# Examples (happy path, edgecases, failures):
+  # 
 # Data Structures
   # input:
   # process:
