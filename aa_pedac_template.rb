@@ -1,10 +1,10 @@
 # Problem (implicit, explicit):
   #
 # Examples (happy path, edgecases, failures):
-  # 
+  #
 # Data Structures
   # input:
-  # process:
+  # rules:
   # output (return):
 # Algorithm:
   #
