@@ -1,5 +1,5 @@
 # Problem (implicit, explicit):
-  # 
+  #
 # Examples (happy path, edgecases, failures):
   #
 # Data Structures
