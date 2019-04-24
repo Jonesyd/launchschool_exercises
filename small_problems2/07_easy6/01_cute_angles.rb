@@ -1,7 +1,9 @@
+DEGREE = "\xC2\xB0"
+
 def number_and_balance(number)
   array = number.to_s.split(".")
   array[1] = "0" if array[1] == nil
-  degrees, balance = array[0], array[1]
+  number, balance = array[0], array[1]
 end
 
 def conver_to_60s(string)
@@ -34,7 +36,7 @@ def dms(number)
   format_array(array)
 end
 
-DEGREE = "\xC2\xB0"
+# #divmod is a better solution.
 
 p dms(30) == %(30°00'00")
 p dms(76.73) == %(76°43'48")
