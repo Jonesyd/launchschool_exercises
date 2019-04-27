@@ -4,10 +4,8 @@ end
 
 def double(integer)
   string = integer.to_s
-  length = string.size / 2
-  first_half = string[0,length]
-  second_half = string[-length, length]
-  first_half == second_half
+  half = string.size / 2
+  string[0,half] == string[-half, half]
 end
 
 
