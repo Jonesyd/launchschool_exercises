@@ -14,3 +14,4 @@ end
 p diamond(1)
 p diamond(3)
 p diamond(9)
+p diamond(51)
