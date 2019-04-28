@@ -3,7 +3,7 @@ def triangle(one, two, three)
   case
   when array.include?(0) then :invalid
   when array.min(2).sum < array.max then :invalid
-  when array.min == array.max then :equilateral
+  when array.max == array.min then :equilateral
   when array.count(array.min) == 2 || array.count(array.max) == 2 then :isosceles
   else :scalene
   end
