@@ -1,20 +1,6 @@
-# Problem (implicit, explicit):
-  #
-# Examples (happy path, edgecases, failures):
-  #
-# Data Structures
-  # input:
-  # rules:
-  # output (return):
-# Algorithm:
-  # split array
-  #
-  #
-# Code:
-
 def word_to_digit(string)
-  numbers = %w(zero one two three four five six seven eight nine)
-  string.split(/\b/).map { |word| numbers.include?(word) ? numbers.index(word) : word }.join
+  nums = %w(zero one two three four five six seven eight nine)
+  string.split(/\b/).map { |word| nums.include?(word) ? nums.index(word) : word }.join
 end
 
 
