@@ -1,4 +1,4 @@
-# Problem (implicit, explicit):
+# Problem (implicit, explicit): 
   #
 # Examples (happy path, edgecases, failures):
   #
