@@ -1,13 +1,12 @@
 def transpose(array)
   new_array = [[],[],[]]
-  column = 0
 
   array.each do |row|
+    column = 0
     row.each do |element|
       new_array[column] << element
       column += 1
     end
-    column = 0
   end
 
   new_array
