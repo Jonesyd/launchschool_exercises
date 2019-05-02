@@ -1,9 +1,7 @@
 def transpose(array)
-  new_array = []
   no_of_columns, no_of_rows    = array[0].size, array.size
   row_counter,   col_counter   = 0, 0
-
-  no_of_columns.times { new_array << [] }
+  new_array = Array.new(no_of_columns) { [] }
 
   until row_counter == no_of_rows
     until col_counter == no_of_columns
