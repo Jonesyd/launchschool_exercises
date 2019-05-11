@@ -23,7 +23,6 @@ def high(string)
 end
 
 
-
 p high('man i need a taxi up to ubud') == "taxi"
 p high('what time are we climbing up the volcano') == "volcano"
 p high('take me to semynak') == 'semynak'
