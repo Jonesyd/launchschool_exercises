@@ -5,17 +5,6 @@
 #
 # Example
 
-# input array
-#  create a new array by iterate over the array using select
-#  sort array !
-#  counter = -1
-#  map original array
-#  if num.odd?
-#    counter + 1
-#    sort array[counter]
-#  else num
-#
-# output array
 
 def sort_array(array)
   odd_array = array.select { |num| num.odd? }.sort!
