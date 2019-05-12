@@ -25,12 +25,6 @@
 #
 # NOTE: There will also be lists tested of lengths upwards of 10,000,000 elements. Be sure your code doesn't time out.
 
-# anchor = 0
-# start at the anchor
-# each if array[anchor] plus current return if number == int
-# nil
-
-# compare the first element of the array with all the others
 
 
 def sum_pairs(array, integer)
