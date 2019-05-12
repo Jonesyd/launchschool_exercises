@@ -14,10 +14,6 @@
 # ""                                        =>  false
 
 
-# new_string = string.split.join
-# return false if new string size > 139 || new string size = 0
-# prepend hash
-
 
 def generateHashtag(string)
   hashtag = string.split.map(&:capitalize).join
